@@ -32,31 +32,31 @@
   }
 
   .dark {
-    --background: 0 0% 10%;              /* Fundo muito escuro (quase preto) */
-    --foreground: 0 0% 100%;             /* Texto principal em branco */
-    --card: 0 0% 12%;                    /* Cartões levemente mais claros que o fundo */
-    --card-foreground: 0 0% 100%;        /* Texto em cartões em branco */
-    --popover: 0 0% 14%;                 /* Popovers em uma cor intermediária */
-    --popover-foreground: 0 0% 100%;     /* Texto de popover em branco */
-    --primary: 0 0% 100%;                /* Texto primário em branco */
-    --primary-foreground: 0 0% 10%;      /* Texto em botões primários escuro */
-    --secondary: 0 0% 50%;               /* Texto secundário em cinza */
-    --secondary-foreground: 0 0% 100%;   /* Texto secundário em branco */
-    --muted: 0 0% 50%;                   /* Texto muted em cinza */
-    --muted-foreground: 0 0% 80%;        /* Texto muted foreground em cinza claro */
-    --accent: 0 0% 50%;                  /* Cores de destaque em cinza */
-    --accent-foreground: 0 0% 100%;      /* Texto de destaque em branco */
-    --destructive: 0 75% 50%;            /* Ações destrutivas em vermelho */
-    --destructive-foreground: 0 0% 100%; /* Texto de ações destrutivas em branco */
-    --border: 0 0% 20%;                  /* Bordas em um cinza escuro */
-    --input: 0 0% 20%;                   /* Inputs em um cinza escuro */
-    --ring: 0 0% 100%;                   /* Anéis de foco em branco */
-    --chart-1: 220 70% 50%;              /* Cores de gráfico personalizáveis */
-    --chart-2: 160 60% 45%;              /* Cores de gráfico personalizáveis */
-    --chart-3: 30 80% 55%;               /* Cores de gráfico personalizáveis */
-    --chart-4: 280 65% 60%;              /* Cores de gráfico personalizáveis */
-    --chart-5: 340 75% 55%;              /* Cores de gráfico personalizáveis */
-  }
+    --background: 0 0% 0%;             /* Fundo muito escuro com um leve toque de amarelo */
+    --foreground: 210 40% 98%;          /* Texto principal em amarelo claro */
+    --card: 228 9% 11%;
+    --card-foreground: 210 40% 98%;
+    --popover: 228 9% 11%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 45 100% 60%;            /* Texto primário em amarelo mais brilhante */
+    --primary-foreground: 30 10% 10%;  /* Texto em botões primários em fundo escuro */
+    --secondary: 30 40% 60%;           /* Texto secundário em um laranja moderado */
+    --secondary-foreground: 45 80% 85%;/* Texto secundário em amarelo claro */
+    --muted: 30 30% 40%;               /* Texto muted em um laranja escuro */
+    --muted-foreground: 45 80% 85%;    /* Texto muted foreground em amarelo claro */
+    --accent: 45 100% 50%;             /* Cores de destaque em amarelo puro */
+    --accent-foreground: 30 10% 10%;   /* Texto de destaque em fundo escuro */
+    --destructive: 15 90% 50%;         /* Ações destrutivas em laranja vibrante */
+    --destructive-foreground: 0 0% 100%;/* Texto de ações destrutivas em branco para contraste */
+    --border: 30 15% 15%;              /* Bordas em um tom escuro, similar aos cartões */
+    --input: 30 15% 15%;               /* Inputs em um tom escuro */
+    --ring: 45 100% 50%;               /* Anéis de foco em amarelo puro */
+    --chart-1: 45 100% 55%;            /* Cores de gráfico personalizáveis em amarelo vibrante */
+    --chart-2: 35 90% 45%;             /* Cores de gráfico personalizáveis em laranja amarelado */
+    --chart-3: 30 80% 40%;             /* Cores de gráfico personalizáveis em laranja médio */
+    --chart-4: 15 70% 35%;             /* Cores de gráfico personalizáveis em laranja escuro */
+    --chart-5: 0 0% 10%;               /* Cores de gráfico personalizáveis em um tom escuro */
+}
 
   .light {
     --background: 0 0% 98%;             /* Fundo muito claro (quase branco) */

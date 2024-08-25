@@ -104,7 +104,7 @@ export default function Home() {
               segundo e criando memórias inesquecíveis! ✨
             </p>
           </div>
-          <div className="text-sm text-blue-500">
+          <div className="text-sm text-yellow-500">
             <a href="#">#Gratidão&nbsp;</a>
             <a href="#">#VidaBemVivida&nbsp;</a>
             <a href="#">#Momentos</a>
@@ -123,7 +123,7 @@ export default function Home() {
       <div className="space-y-2 border-y border-solid px-4 py-4">
         <div className="flex flex-row items-center justify-between">
           <p className="text-sm font-semibold">Suggested for you</p>
-          <a href="#" className="text-sm font-semibold text-blue-500">
+          <a href="#" className="text-sm font-semibold text-yellow-500">
             See all
           </a>
         </div>
@@ -258,7 +258,7 @@ export default function Home() {
               segundo e criando memórias inesquecíveis! ✨
             </p>
           </div>
-          <div className="text-sm text-blue-500">
+          <div className="text-sm text-yellow-500">
             <a href="#">#Gratidão&nbsp;</a>
             <a href="#">#VidaBemVivida&nbsp;</a>
             <a href="#">#Momentos</a>
