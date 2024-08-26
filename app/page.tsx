@@ -10,7 +10,7 @@ export default function Home() {
 
       <div className="flex gap-4 overflow-auto p-4 [&::-webkit-scrollbar]:hidden">
         <div className="flex w-[70px] flex-col items-center justify-center space-y-2">
-          <div className="relative h-[70px] w-[70px]">
+          <div className="relative h-[70px] w-[70px] rounded-full border-2">
             <Image
               alt={"milena"}
               fill
@@ -27,13 +27,15 @@ export default function Home() {
             key={feed.name}
             className="flex w-[70px] flex-col items-center justify-center space-y-2"
           >
-            <div className="relative h-[70px] w-[70px]">
-              <Image
-                alt={feed.name}
-                fill
-                className="rounded-full object-cover"
-                src={feed.imageUrl}
-              />
+            <div className="rounded-full border-2 border-yellow-500">
+              <div className="relative h-[70px] w-[70px] rounded-full border-4 border-transparent">
+                <Image
+                  alt={feed.name}
+                  fill
+                  className="rounded-full object-cover"
+                  src={feed.imageUrl}
+                />
+              </div>
             </div>
             <div className="flex w-full flex-col items-center justify-center">
               <p className="w-full truncate text-center text-sm">
