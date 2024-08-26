@@ -5,8 +5,7 @@ import { BellIcon } from "lucide-react"
 
 const Header = () => {
   return (
-    <div className="flex flex-row items-center justify-between px-5 py-2">
-      {/* <h1 className="pl-2">OnlyCans</h1> */}
+    <div className="flex flex-row items-center justify-between p-2">
       <Link href="/">
         <Image
           alt="FSW Barber"

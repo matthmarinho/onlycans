@@ -1,11 +1,48 @@
 import Header from "./_components/header"
 import { feedOptions } from "./_constants/feedOptions"
 import Post from "./_components/post"
+import Image from "next/image"
 
 export default function Home() {
   return (
     <div>
       <Header />
+
+      <div className="flex gap-4 overflow-auto p-4 [&::-webkit-scrollbar]:hidden">
+        <div className="flex w-[70px] flex-col items-center justify-center space-y-2">
+          <div className="relative h-[70px] w-[70px]">
+            <Image
+              alt={"milena"}
+              fill
+              className="rounded-full object-cover"
+              src={"/milena.jpg"}
+            />
+          </div>
+          <div className="flex w-full flex-col items-center justify-center">
+            <p className="w-full truncate text-center text-sm">You</p>
+          </div>
+        </div>
+        {feedOptions.map((feed) => (
+          <div
+            key={feed.name}
+            className="flex w-[70px] flex-col items-center justify-center space-y-2"
+          >
+            <div className="relative h-[70px] w-[70px]">
+              <Image
+                alt={feed.name}
+                fill
+                className="rounded-full object-cover"
+                src={feed.imageUrl}
+              />
+            </div>
+            <div className="flex w-full flex-col items-center justify-center">
+              <p className="w-full truncate text-center text-sm">
+                {feed.handle}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
 
       <div className="py-2 pb-14">
         {feedOptions.map((feed) => (
